@@ -1,0 +1,725 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta id="viewport" name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="apple-itunes-app" content="app-id=CityApp.Content.AppleStoreId"/>
+    
+        <title>Willkommen -  CITYGUIDE Wien, die Stadt App für CITYGUIDE Wien, Stadtführer-, Branchen- und  Mobile-APP</title>
+  
+    
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+           
+           <link href="/Content/css?v=36o9zvCg9j6dgkWKbEEomoc2EjwQW-xK6rfvGUpyt6Y1" type="text/css" rel="stylesheet" async />
+
+    
+    <script src="/bundles/jquery?v=X0ozxU4mIr_gkHk6cRHq9EKocg_8oD0xNnVBUFE9qqY1"></script>
+
+           <script type="text/javascript" src="/bundles/modernizr?v=wBEWDufH_8Md-Pbioxomt90vm6tJN2Pyy9u9zHtWsPo1" async></script>
+
+           
+    <link rel="canonical" href="http://wien.cityguide.at/"/>
+
+<style>
+        .navbar-inverse {
+            background-color: #d31d37;
+            border-color: #d31d37;
+        }
+
+        .mybgcolor {
+            background-color: #d31d37;
+        }
+        .myborder {
+            border-color: #d31d37;
+        }
+        .mybocolor, li.active {
+            border-bottom: 5px solid #d31d37 !important;
+        }
+
+        #jumboheader {
+            background: url('http://c3api.mlws.it/api/Image/52') no-repeat center center;
+        }
+    </style>
+    <style type="text/css">
+        /* Sticky footer styles
+        -------------------------------------------------- */
+
+        html,
+        body {
+            height: 100%;
+            /* The html and body elements cannot have any padding or margin. */
+        }
+
+        /* Wrapper for page content to push down footer */
+        #wrap {
+            min-height: 100%;
+            height: auto !important;
+            height: 100%;
+            /* Negative indent footer by it's height */
+            margin: 0 auto -160px;
+        }
+
+        /* Set the fixed height of the footer here */
+        #push {
+            height: 160px;
+        }
+        #footer {
+            height: 160px;
+        }
+
+        /* Lastly, apply responsive CSS fixes as necessary */
+        /*@media (max-width: 767px) {
+            #footer {
+                margin-left: -20px;
+                margin-right: -20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }*/
+        .nav-up {
+            top: -100px;
+        }
+        #navbar {
+            transition: top 0.1s ease-in-out;
+        }
+        .hvr-bounce-out {
+            display: inline-block;
+            vertical-align: middle;
+            -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+        }
+        .hvr-bounce-out:hover, .hvr-bounce-out:focus, .hvr-bounce-out:active {
+            -webkit-transform: scale(0.8);
+            transform: scale(0.8);
+            -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+            transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+        }
+    </style>
+    <script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments);
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-34647957-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="navbar" class="navbar navbar-inverse navbar-fixed-top nav-down">
+            <div class="container">
+                <div class="row" style="height:50px;">
+                    <div class="col-lg-12">
+                        
+                        
+                        <a href="/"><img src="http://c3api.mlws.it/api/Image/2733" style="width:auto; max-height:30px; max-width:290px; margin:10px 0;" /></a>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="row hidden-lg hidden-md hidden-sm" style="background-color:#fff;">
+                <div class="container">
+                    <div class="col-lg-12">
+<form action="/de-de/Search" class="form-inline" method="get">                            <div style="margin:0 0 10px;"></div>
+                                <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target=".navbar-collapse" style="margin:0;margin-right:15px;">
+                                    <span class="icon-bar" style="background-color:#9c9c9c"></span>
+                                    <span class="icon-bar" style="background-color:#9c9c9c"></span>
+                                    <span class="icon-bar" style="background-color:#9c9c9c"></span>
+                                </button>
+                                <div class="form-group">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control pull-right" id="query" placeholder="Suche" name="query" style="max-width:100%; min-width:70%;">
+                                        <div class="input-group-addon"><span class="glyphicon glyphicon-search"></span></div>
+                                    </div>
+                                </div>
+</form>                    </div>
+                </div>
+            </div>
+            <div class="row" style="background-color:#fff;padding:0 15px;">
+                <div class="container">
+                    <div class="row">
+                        <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav" style="margin-left:-15px;">
+                                <li class="hidden-sm hidden-md"><a href="/">Home</a></li>
+                                                                    <li><a href="http://www.cityguide.com/app-eintrag-at.html">Werben mit uns</a></li>
+                                                                    <li class="hidden-sm hidden-md hidden-lg"><a href="/de-de/Category/Index/15465">Best of Vienna</a></li>
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Partner <span class="caret"></span></a>
+                                        <ul class="dropdown-menu" role="menu">
+                                            <li><a href="/de-de/Category/Index/18336">Marketingpartner</a></li>
+                                            <li><a href="/de-de/Category/Index/18407">Werbepartner</a></li>
+                                            <li><a href="/de-de/Category/Index/18501">Sponsoring Partner</a></li>
+                                        </ul>
+                                        </li>
+
+                                <li class="hidden-sm"><a href="/de-de/Page/Item/8" rel="nofollow">Kontakt</a></li>
+                                <li class="hidden-sm"><a href="/de-de/Page/Item/1568" rel="nofollow">Impressum</a></li>
+                                    <li>        <li><a href="/de-de/Account/Login" id="loginLink" rel="nofollow">Anmelden</a></li>
+</li>
+                            </ul>
+                            
+<form action="/de-de/Search" class="form-inline pull-right hidden-xs" method="get">                                <div style="margin:0 0 10px;"></div>
+                                    <div class="form-group">
+                                        <label class="sr-only" for="query">Suche</label>
+                                        <input type="text" class="form-control" id="query" placeholder="Suche" name="query">
+                                    </div>
+                                    <button type="submit" class="btn btn-default">Suchen</button>
+</form>                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    <div class="jumbotron hidden-xs" id="jumboheader" style="min-height:250px;background-size:100% auto;margin-top:-5px;">
+        <div class="container">
+                <img src="/Content/Images/Maps/Karte-AU.png" alt="" class="pull-right img-responsive hvr-bounce-out" onclick="location.href='http://oesterreich.cityguide.at/'" style="cursor: pointer;" title="Wählen Sie einen Bezirk." />
+                <img src="/Content/Images/Maps/wien-wappen.png" class="pull-right" style="position:relative;z-index:10;height:65px;right:-300px;top:40px; cursor: pointer;" onclick="location.href = 'http://oesterreich.cityguide.at/'" />
+            <h1 style="color:#ffffff;background-color:rgba(0,0,0,0.5);display:inline;font-size:48px;">
+                Willkommen beim<br /><b>CITYGUIDE Wien</b>
+            </h1>
+        </div>
+    </div>
+<div class="jumbotron hidden-md hidden-lg hidden-sm" id="jumboheader" style="line-height:1;margin-bottom:0;padding:0;background-size:100% auto;background-image:url('http://c3api.mlws.it/api/Image/52');
+    -webkit-box-shadow: inset 1px -90px 56px -29px rgba(0,0,0,0.61);-moz-box-shadow: inset 1px -90px 56px -29px rgba(0,0,0,0.61);box-shadow: inset 1px -90px 56px -29px rgba(0,0,0,0.61);">
+    <div class="container">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <table style="width: 100%; color: #fff; margin-top: 85px; margin-bottom: 5px; font-size: 12pt; text-align: center;" border="0">
+                <tr>
+                    <td style="width: 45%; border-right: 1px solid #eee; text-align: left;">
+                        Wetter aktuell
+                    </td>
+                    <td>
+                        Montag
+                    </td>
+                    <td>
+                        Dienstag
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; border-right: 1px solid #eee; text-align: left; vertical-align: bottom;">
+                        <img class="pull-left" style="height: 38px;" src="/Content/Images/Weather/Conditions2xW/d_2_S.png" alt=""/>
+                        <span class="" style="line-height: 1.0; padding: 0; margin: 0; margin-top: 15px; font-size: 38px; font-weight: 900;">20&deg;</span>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <b>25 C&deg;</b><br/>
+                        <img style="height: 31px;" src="/Content/Images/Weather/Conditions2xW/d_1_S.png" alt=""/>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <b>26 C&deg;</b><br/>
+                        <img style="height: 31px;" src="/Content/Images/Weather/Conditions2xW/d_2_S.png" alt=""/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+        <div class="container body-content">
+            
+
+
+<div class="row" style="margin-top:20px;">
+    <div class="col-lg-6" style="padding:0;">
+        <table style="width:100%;border:0;padding:0;border-spacing:0;">
+            <tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                                                    <a href="http://wien-app.cityguide.at/" target="_blank">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#bd2132;"><i class="tab" style="background-position: -280px -280px;"></i></div><br />Bezirke</div>
+                                    </a>
+                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/1144">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -140px -0px;"></i>
+                                            </div><br />Wien Info
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                    <a href="http://panorama.cityguide.com/stadt-wien_1192/pano.html" target="_blank">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#BD2132;"><i class="tab" style="background-position: -140px -140px;"></i></div><br />City View</div>
+                                    </a>
+                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                                                                                                                    <a href="/de-de/Offer">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#bd2132;"><i class="tab" style="background-position: -490px -1470px;"></i></div><br />Coupons &amp; Angebote</div>
+                                    </a>
+                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/4119">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -420px -0px;"></i>
+                                            </div><br />Nightlife
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/1348">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -490px -0px;"></i>
+                                            </div><br />Shopping
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/463">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -280px -0px;"></i>
+                                            </div><br />Restaurants
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/3616">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -350px -0px;"></i>
+                                            </div><br />Bars &amp; Caf&#233;s
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/4116">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -700px -0px;"></i>
+                                            </div><br />F&#252;r Sie
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/4117">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -770px -0px;"></i>
+                                            </div><br />F&#252;r Ihn
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/16462">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#BD2132;">
+                                                <i class="tab" style="background-position: -490px -280px;"></i>
+                                            </div><br />Rainbow
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/16461">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -420px -280px;"></i>
+                                            </div><br />Unterwegs
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                                                                                                                                                    <a href="/de-de/Article/Details/3788">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#eb212e;"><i class="tab" style="background-position: -210px -1470px;"></i></div><br />HANDY Parken</div>
+                                    </a>
+                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/11210">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -210px -210px;"></i>
+                                            </div><br />Immobilien
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/3662">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#eb212e;">
+                                                <i class="tab" style="background-position: -210px -70px;"></i>
+                                            </div><br />Dienst- leister
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/1195">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -280px -70px;"></i>
+                                            </div><br />Handwerk
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/765">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -560px -70px;"></i>
+                                            </div><br />Auto &amp; Verkehr
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/3619">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -350px -420px;"></i>
+                                            </div><br />Wellness
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/8">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -70px -70px;"></i>
+                                            </div><br />Gesundheit
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/4039">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -280px -210px;"></i>
+                                            </div><br />Familie
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/956">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -840px -0px;"></i>
+                                            </div><br />Sport &amp; Freizeit
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/3912">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#EB212E;">
+                                                <i class="tab" style="background-position: -140px -70px;"></i>
+                                            </div><br />Notfall
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                                                                                                                    <a href="/de-de/Page/Index/1">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#EB212E;"><i class="tab" style="background-position: -490px -70px;"></i></div><br />Events</div>
+                                    </a>
+                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                                                                                                                    <a href="/de-de/Event">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#eb212e;"><i class="tab" style="background-position: -70px -280px;"></i></div><br />Tickets</div>
+                                    </a>
+                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/2455">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -350px -280px;"></i>
+                                            </div><br />Taxi
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/495">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -700px -70px;"></i>
+                                            </div><br />Kunst &amp; Kultur
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/6933">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -560px -0px;"></i>
+                                            </div><br />Innenstadt
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/1191">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -210px -0px;"></i>
+                                            </div><br />Unterkunft
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/16463">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -560px -1470px;"></i>
+                                            </div><br />Vienna Airport
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                    <a href="http://www.messe.at/nt/download/rx_aktuelle-termine.pdf" target="_blank">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#bd2132;"><i class="tab" style="background-position: -420px -70px;"></i></div><br />Messe</div>
+                                    </a>
+                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                    <a href="https://shop.flixbus.de/index.php/schedule/search/0/0/0?style=width300&amp;quelle=www.cityguide.com&amp;medien=shop&amp;kampagne=partnertracking" target="_blank">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#bd2132;"><i class="tab" style="background-position: -770px -630px;"></i></div><br />Fernbus</div>
+                                    </a>
+                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/10320">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -350px -70px;"></i>
+                                            </div><br />Prater
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                </tr>
+                <tr>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/676">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -630px -70px;"></i>
+                                            </div><br />Tourismus
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/3037">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -840px -70px;"></i>
+                                            </div><br />M&#228;rkte
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                    <a href="/de-de/Category/Index/15465">
+                                        <div style="height:120px;text-align:center;min-width:76px;max-width:76px;margin:0 auto;">
+                                            <div class="tab mybgcolor" style="background-color:#bd2132;">
+                                                <i class="tab" style="background-position: -70px -0px;"></i>
+                                            </div><br />Best of Vienna
+                                        </div>
+                                    </a>
+                                                                                                                                                            </td>
+                            <td style="text-align:center;width:25%;">
+                                                                                                                                                                    <a href="/de-de/AZ">
+                                        <div style="height: 120px; text-align: center; min-width: 76px; max-width: 76px; margin: 0 auto;"><div class="tab mybgcolor" style="background-color:#bd2132;"><i class="tab" style="background-position: -560px -770px;"></i></div><br />Liste A-Z</div>
+                                    </a>
+                            </td>
+                </tr>
+            </table>
+        </div>
+    <div class="col-lg-6">
+            <div class="row">
+                <div class="col-lg-12 hidden-xs hidden-md"
+                     style="border:5px solid #eee; border-bottom:10px solid #eee; line-height:1;margin-bottom:0;padding:15px;background-size:100% auto;background-image:url('http://c3api.mlws.it/api/Image/52');
+                -webkit-box-shadow: inset 1px -90px 56px -29px rgba(0,0,0,0.61);-moz-box-shadow: inset 1px -90px 56px -29px rgba(0,0,0,0.61);box-shadow: inset 1px -90px 56px -29px rgba(0,0,0,0.61);">
+
+    <div class="row">
+        <div class="col-lg-12">
+            <table style="width: 100%; color: #fff; margin-top: 85px; margin-bottom: 5px; font-size: 12pt; text-align: center;" border="0">
+                <tr>
+                    <td style="width: 45%; border-right: 1px solid #eee; text-align: left;">
+                        Wetter aktuell
+                    </td>
+                    <td>
+                        Montag
+                    </td>
+                    <td>
+                        Dienstag
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 45%; border-right: 1px solid #eee; text-align: left; vertical-align: bottom;">
+                        <img class="pull-left" style="height: 38px;" src="/Content/Images/Weather/Conditions2xW/d_2_S.png" alt=""/>
+                        <span class="" style="line-height: 1.0; padding: 0; margin: 0; margin-top: 15px; font-size: 38px; font-weight: 900;">20&deg;</span>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <b>25 C&deg;</b><br/>
+                        <img style="height: 31px;" src="/Content/Images/Weather/Conditions2xW/d_1_S.png" alt=""/>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <b>26 C&deg;</b><br/>
+                        <img style="height: 31px;" src="/Content/Images/Weather/Conditions2xW/d_2_S.png" alt=""/>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+                </div>
+            </div>
+        <div class="row">
+            <div class="col-lg-12">
+
+<div class="row" style="background-color: #fff; border: 5px solid #ebebeb; border-bottom: 10px solid #ebebeb; border-top: 0;">
+    <div class="col-lg-12 mybocolor">
+        <h2>Life Ball 2015: 16. Mai </h2>
+    </div>
+</div>
+<div class="row" style="background-color: #fff; border: 5px solid #ebebeb; border-bottom: 10px solid #ebebeb; border-top: 0;">
+    <div class="col-lg-12" style="padding:0;">
+        
+        <a href="http://wien.cityguide.at/de-de/POI/Details/1071615"><img src="http://media.cityguide.com/files/197_11080626_10155330891860114_5233267948460728893_o.jpg" class="img-responsive" alt="" style="margin:0 auto" />
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <a class="pull-right" href="https://itunes.apple.com/de/app/wien-app/id602083429?mt=8&uo=4" target="itunes_store" style="display:inline-block;overflow:hidden;background:url(/Content/Images/Badges/badge_appstore-lrg.png) no-repeat;width:135px;height:40px;"></a>
+                                        <a class="pull-right" href="https://play.google.com/store/apps/details?id=cityguide.Wien">
+                        <img alt="Get it on Google Play"
+                             src="/Content/Images/Badges/en_generic_rgb_wo_45.png" style="height:40px;" />
+                    </a>                    
+                </div>
+            </div>
+            <hr />
+        </div>
+    </div>
+
+    <div id="push"></div>
+    <div id="footer" class="mybgcolor" style="color:#fff;">
+        <div class="container-fluid">
+            <div class="row" style="margin:20px;padding-top:10px;">
+                <div class="col-md-6 col-sm-6 hidden-xs">
+                    <p class="hidden-lg">
+                        <b>Sie haben Fragen:</b><br>
+                        <a href="/de-de/Page/Item/8" style="color:#fff;" rel="nofollow">Kontakt</a><br>
+                        <a href="/de-de/Page/Item/1568" style="color:#fff;" rel="nofollow">Impressum</a><br>
+                        
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <p class="pull-right text-left">
+                            <span class="btn btn-default" style="background-color:#fff;">
+                                <img class="img-responsive" src="/Content/Images/Sponsor/official-life-ball-partner.png" style="max-height: 100px;" alt="LifeBall - Fighting AIDS and Celebrating Life" />
+                            </span>
+                                                                                                                    </p>
+                </div>
+
+                <div class="col-md-3 hidden-xs hidden-sm">
+                        <p class="pull-right">
+                            <b>Sie finden uns auch hier</b><br>
+                            <a href="https://www.facebook.com/wienapp" target="_blank" rel="nofollow"><i class="social flag_fb"></i></a>
+                            <a href="https://www.youtube.com/watch?v=jBVUnnK_Xgs" target="_blank" rel="nofollow"><i class="social flag_tw"></i></a>
+                            <a href="https://plus.google.com/+CITYGUIDEAGAustriaWien" target="_blank" rel="nofollow"><i class="social flag_gp"></i></a>
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <script>
+        $(function () {
+            FastClick.attach(document.body);
+        });
+    </script>
+    <script>
+        var didScroll;
+        var lastScrollTop = 0;
+        var delta = 5;
+        var navbarHeight = $('header').outerHeight();
+
+        $(window).scroll(function (event) {
+            didScroll = true;
+        });
+
+        setInterval(function () {
+            if (didScroll) {
+                hasScrolled();
+                didScroll = false;
+            }
+        }, 250);
+
+        function hasScrolled() {
+            var st = $(this).scrollTop();
+
+            // Make sure they scroll more than delta
+            if (Math.abs(lastScrollTop - st) <= delta)
+                return;
+
+            // If they scrolled down and are past the navbar, add class .nav-up.
+            // This is necessary so you never see what is "behind" the navbar.
+            if (st > lastScrollTop && st > navbarHeight) {
+                // Scroll Down
+                $('#navbar').removeClass('nav-down').addClass('nav-up');
+            } else {
+                // Scroll Up
+                if (st + $(window).height() < $(document).height()) {
+                    $('#navbar').removeClass('nav-up').addClass('nav-down');
+                }
+            }
+
+            lastScrollTop = st;
+        }
+    </script>
+    
+    <!-- Piwik AT -->
+    <script type="text/javascript">
+        var _paq = _paq || [];
+        _paq.push(["setCookieDomain", "*.cityguide.at"]);
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function () {
+            var u = "//p224345.mittwaldserver.info/piwik/";
+            _paq.push(['setTrackerUrl', u + 'piwik.php']);
+            _paq.push(['setSiteId', 3]);
+            var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
+            g.type = 'text/javascript'; g.async = true; g.defer = true; g.src = u + 'piwik.js'; s.parentNode.insertBefore(g, s);
+        })();
+    </script>
+    <noscript><p><img src="//p224345.mittwaldserver.info/piwik/piwik.php?idsite=3" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
+</body>
+
+
+</html>
